@@ -1,0 +1,39 @@
+.table{
+    padding: 0px 30px;
+    border-collapse: collapse;
+    text-align: start;
+    width: 100%;
+
+    tr , td , th{
+        padding: 10px 20px;
+    }
+
+    thead tr {
+        text-align: start;
+        padding: 10px 20px;
+        background: #000;
+        color: white;
+    }
+
+    tr:nth-child(even){
+        background: #ddd;
+    }
+
+    &__btn {
+        width: 65px;
+        height: 30px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: #000;
+        color: white;
+        font-size: 16px;
+        padding: 2px;
+        font-weight: 600;
+    }
+
+    &__btns {
+       display: flex;
+       flex-direction: row;
+       gap: 20px;
+    }
+}

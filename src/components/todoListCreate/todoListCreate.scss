@@ -1,0 +1,42 @@
+form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 1px 1px 2px 2px #ddd;
+
+    input {
+        outline: none;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+}
+
+.form{
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 100px;
+    }
+
+    &__btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        button {
+            background-color: black;
+            color: white;
+            font-size: 16px;
+            padding: 5px 10px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+        }
+    }
+}
